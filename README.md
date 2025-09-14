@@ -1,155 +1,198 @@
 # 0xdbm-cracking
+![Hacker Banner](https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif)
 
-> **Red Team Operator · Adversary Emulation · Offensive Engineering**
-
----
-
-```
-██████╗  ██████╗ ██████╗  ██████╗ ███╗   ███╗   _____  _    _  _____ _  __
-██╔══██╗██╔═══██╗██╔══██╗██╔═══██╗████╗ ████║  / ____|| |  | ||  __ \\ |/ /
-██████╔╝██║   ██║██████╔╝██║   ██║██╔████╔██║ | |     | |__| || |  | ' / 
-██╔══██╗██║   ██║██╔══██╗██║   ██║██║╚██╔╝██║ | |     |  __  || |  |  <  
-██║  ██║╚██████╔╝██║  ██║╚██████╔╝██║ ╚═╝ ██║ | |____ | |  | || |__| . \\ 
-╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚═╝     ╚═╝  \\_____||_|  |_||_____/|_|\\_\\
-
-           Operate under authority. Harden without mercy.
-```
-
-<p align="center">
-  <img src="https://media.giphy.com/media/l0Exk8EUzSLsrErEQ/giphy.gif" alt="hacker-anim" width="420" />
-</p>
+> **Red Team / Offensive Cyber Simulation Lab**  
+> High-intensity training ground for red team operators, malware analysts, penetration testers, and threat researchers. Everything here is framed as simulated and lab-only.
 
 ---
 
-## 😈 Tone — Sharper, Sinister, Unforgiving
-
-This README is aggressively red-team focused. It intimidates complacency, drives action, and emphasizes full-spectrum offensive simulation — all authorized, all ethical.
+`[ERROR] ↳ Injecting RAT payload into target | [C2 Beacon Detected] | [Status: System Breached]`
 
 ---
 
-## 🎯 Mission — Pressure, Expose, Obliterate Weakness
+## Red Team Operations
 
-I don’t just test — I *pressure* systems until they reveal vulnerabilities. Then I carve up telemetry so defenders can rebuild stronger.
+Welcome to the **Offensive Cyber Simulation Lab** — a high-intensity training ground engineered for **red team operators, malware analysts, penetration testers, and threat researchers**. Here, you dive deep into real-world adversary techniques including advanced malware deployment, live attack chain emulation, covert command & control operations, Google dork reconnaissance, SQL injection exploitation, and dark web intelligence gathering.
 
-> *"You either harden, or you get owned. Pick a side."*
-
----
-
-## 🧯 Visual & Resources
-
-* Dark ASCII header (above)
-* Animated hacker GIF embedded above
-* Badges for threat scoring and ops mode
-* Wide array of hacking sources for lab and learning
-
-<p align="center">
-  <img src="https://img.shields.io/badge/threat--score-9.9-red?style=for-the-badge" alt="threat score" />
-  <img src="https://img.shields.io/badge/ops--mode-RAPID--ASSAULT-black?style=for-the-badge" alt="ops mode" />
-</p>
+**All exercises and tools are strictly for authorized simulation, hands-on training, and cybersecurity research purposes only.** This environment empowers you to sharpen offensive skills with cutting-edge methods used by today’s threat actors — in labs only.
 
 ---
 
-## 🛠️ Tools & Sources — Full Arsenal
+## 🕵️‍♂️ Dark Web Onion Sites: Entry Points to Hidden Networks
 
-**Recon / OSINT**
+Accessing the Tor network and onion services is essential for deep-dive threat intelligence and privacy-focused research. Below are popular onion site directories and search engines to navigate the dark web:
 
-* Amass, Subfinder, TheHarvester, Shodan, Censys, crt.sh, CertStream, Maltego
+- [onion.live](http://onion.live) — fast, user-friendly directory for active onion sites.  
+- [dark.fail](http://dark.fail) — trusted list of verified onion services with uptime checks.  
+- [Ahmia](http://ahmia.fi) — search engine indexing hundreds of onion sites.  
+- [TorLink](http://tor.link) — simple onion site portal.  
+- [Not Evil](http://notevil) — Tor search engine with extensive onion site database.  
+- [Onion.city](http://onion.city) — onion site proxy for clearnet access.
 
-**Malware Analysis & Reverse Engineering**
-
-* Ghidra, IDA Free, Radare2, Cuckoo Sandbox (lab only)
-
-**Network & Port Scanning**
-
-* Nmap, Masscan, RustScan, Wireshark, tcpdump
-
-**AD & Windows Post-Exploitation**
-
-* BloodHound, SharpHound, PowerView, Mimikatz (lab only)
-
-**Web Application Security**
-
-* Burp Suite, OWASP ZAP, sqlmap (authorized testing only), Nikto
-
-**Cloud Security**
-
-* AWS CLI, Azure CLI, ScoutSuite, Prowler, CloudMapper (lab-only)
-
-**Scripting & Automation**
-
-* Python, Bash, PowerShell, Go, custom frameworks
-
-**Detection & Telemetry**
-
-* ELK, Splunk, OSQuery, Sigma rules, Wazuh, Zeek
-
-**Malware / Threat Intelligence Sources**
-
-* VirusTotal, Hybrid Analysis, MalwareBazaar, AbuseIPDB, MISP (for lab simulation)
+**Note:** Always use the official Tor Browser to access onion services safely. Dark web exploration carries risks — prioritize operational security.
 
 ---
 
-## ⚖️ Rules of Engagement — Non-Negotiable
+## 🕵️ OSINT & Doxing Research Tools
 
-1. Written authorization is mandatory.
-2. Predefined blast radius and rollback plan.
-3. Real-time kill switch in place.
-4. Use synthetic data for exfil simulation only.
-5. Sanitize deliverables.
+This module highlights widely-used tools in reconnaissance and pre-exploitation. These OSINT resources support **target profiling, infrastructure mapping, metadata discovery, and identity tracing**.
 
----
-
-## 🧪 Lab Playbooks — Templates
-
-### AD Emulation Lab
-
-* Create isolated lab network with nested virtualization.
-* Provision DC, 2-3 Windows clients, 1 attacker VM.
-* Install telemetry agents: winlogbeat/filebeat → ELK/Splunk.
-* Seed fake users, service accounts, and credentials.
-* Run mapping and simulated attacks, observe detection.
-
-### Cloud Misconfiguration Lab
-
-* Use isolated test cloud account (AWS/Azure/GCP).
-* Deploy minimal infra: VM, storage bucket, IAM role.
-* Intentionally misconfigure for lab simulation.
-* Simulate abuse and monitor telemetry.
-* Destroy all resources after testing.
+- 🔍 [OSINT Framework](https://www.osintframework.com/) — categorized directory of OSINT tools.  
+- 🔎 [Whoxy](https://www.whoxy.com/) — WHOIS & domain ownership intelligence.  
+- 📧 [Have I Been Pwned](https://haveibeenpwned.com/) — identify breached emails & leaks.  
+- 📷 [Exif.tools](https://exif.tools/) — extract EXIF metadata from images.  
+- 📱 [IntelX](https://intelx.io/) — search dark web dumps, pastes, emails, and leaked credentials.  
+- 🧠 [Social Searcher](https://www.social-searcher.com/) — monitor digital footprint across social platforms.  
+- 🗂️ [WiGLE](https://wigle.net/) — locate wireless networks and map WiFi geolocation data.  
+- 🛑 [Wayback Machine](https://archive.org/) — retrieve historical versions of websites and deleted content.
 
 ---
 
-## 🕵️‍♂️ Hunting Notes & Indicators
+## 💀 Simulated Malware Arsenal
 
-* Sudden DNS query spikes or anomalous auth patterns.
-* Suspicious new services or scheduled tasks.
-* LSASS access or credential dump attempts (lab only).
-* Abnormal outbound connections.
+> **Simulated / modeled items for lab training only.** Not actual payloads included.
 
----
-
-## 📦 Deliverables
-
-* Executive Hit-List (1 page): business impact summary.
-* Technical Kill-Chain: step-by-step reproduction (sanitized).
-* IOC & Detection Pack: Sigma, Splunk, ELK queries.
-* Purple Team Session: live walkthrough and tuning.
+- **RAT.exe** – modeled after Quasar / njRAT-style remote access trojans.  
+- **PhantomStealer** – credential/data stealer akin to RedLine / Vidar.  
+- **WormInjector** – network-spreading payload inspired by SMBv1 EternalBlue behaviors.  
+- **CrimsonLoader** – polymorphic dropper using LOLBAS tactics and PowerShell stagers.  
+- **SleepyCat** – stealthy fileless implant using in-memory techniques.
 
 ---
 
-## ⚠️ Legal & Ethics
+## 🎯 Simulated Attack Chain
 
-Authorized testing only. No permission = no engagement.
+- **Initial Access:** Spear-phishing, malicious Office/HTA payloads (MalwareBazaar-style), USB HID attacks.  
+- **Execution:** Living-off-the-land binaries (`mshta`, `regsvr32`, `rundll32`), obfuscated script execution.  
+- **Persistence:** Scheduled tasks, registry run keys, WMI event consumers.  
+- **Privilege Escalation:** Local CVEs, token impersonation, DLL sideloading (see Exploit-DB).  
+- **Defense Evasion:** AMSI & ETW bypass, API unhooking, custom packers.  
+- **Exfiltration:** Encrypted channels over HTTPS, DNS tunneling, staging to simulated C2 endpoints.
 
 ---
 
-## 📣 Extra Flair & Sources
+## 📡 Simulated C2 Infrastructure
 
-* Embedded hacker GIF (animated)
-* ASCII art and badges
-* OSINT sources, malware labs, cloud security labs, network scanning, and AD attack simulations
 
-```
-_Operate under authority. Harden without mercy._
-— 0xdbm-cracking
-```
+
+c2.ghostops.internal
+rat.0xdbm-cracking.local
+dropzone.secops.dev
+
+
+
+
+
+---
+
+## 🔗 Malware Research & Intelligence Sources
+
+- [VX Underground](https://www.vx-underground.org/) — malware archive for research.  
+- [Malpedia](https://malpedia.caad.fkie.fraunhofer.de/) — threat actor & family profiles.  
+- [MalwareBazaar](https://bazaar.abuse.ch/) — analyst-contributed payload samples.  
+- [VirusTotal](https://www.virustotal.com/) — static & dynamic analysis.  
+- [Any.Run](https://any.run/) — interactive sandbox for live analysis.  
+- [GitHub red-team topics](https://github.com/topics/red-team) — curated offensive tooling (use ethically).
+
+---
+
+## 🔍 Google Dorking 2025: Advanced Search for Attack Surface Discovery
+
+**Google Dorking** uses advanced search operators to find unintentionally exposed content. Useful for attack surface discovery and defensive audits.
+
+**Common Google Dorks Examples:**
+
+- `intitle:"index of" "backup"` — finds public backup directories.  
+- `filetype:env db_password` — searches for environment files leaking credentials.  
+- `site:gov confidential` — targets government domains for exposed docs.  
+- `inurl:"/admin/login.php"` — locates exposed admin login pages.  
+- `ext:log "error" "password"` — finds exposed log files.  
+- `filetype:sql "insert into" "password"` — finds SQL dumps with credentials.  
+- `intitle:"index of" "private"` — directories named “private”.  
+- `intext:"confidential" filetype:pdf` — PDFs labeled confidential.  
+- `allinurl: admin config` — URLs containing “admin” and “config”.  
+- `ext:bak OR ext:old OR ext:backup` — exposed backup file types.  
+- `site:edu "student records"` — educational domains with exposed student info.  
+- `intitle:"phpinfo()" "published by the PHP Group"` — public PHP info pages.  
+- `inurl:"?id=" AND "union select"` — pages that may contain SQLi indicators.  
+- `filetype:xls "password"` — Excel files with plaintext passwords.
+
+**Defensive Tip:** Regularly scan your public assets with dorks to find and remediate leaks.
+
+---
+
+## 💉 SQL Injection 2025: Breaching Databases with Malicious Queries
+
+**SQL Injection (SQLi)** remains a critical web vulnerability where untrusted input is interpreted as part of database queries, enabling data theft, unauthorized access, or destructive actions.
+
+In 2025, automation and AI accelerate discovery and exploitation of SQLi (including blind and second-order variants).
+
+> **Examples shown here are from the provided simulation content. Use only in controlled lab environments.**
+
+**Common SQL Injection Examples (as provided in simulation content):**
+
+- `' OR '1'='1'; --` — classic authentication bypass pattern.  
+- `UNION SELECT username, password FROM users;` — illustrate data exfiltration via union-based injection.  
+- `'; DROP TABLE users; --` — destructive payload example.  
+- `AND 1=CAST((SELECT TOP 1 password FROM users) AS INT); --` — blind-extraction style example.
+
+**Defensive Tips:** Use prepared statements / parameterized queries, sanitize inputs, enforce least-privilege DB accounts, enable WAFs, and test applications in staging with authorized scanners.
+
+---
+
+## 💣 Ransomware 2025: Digital Hostage Tactics
+
+Ransomware continues to evolve: modern strains use strong encryption, double extortion (steal then encrypt), targeted campaigns, and supply-chain compromises.
+
+**How Ransomware Spreads:**
+
+- Phishing with malicious attachments/links.  
+- Exploiting public-facing services (RDP, VPN).  
+- Trojans/droppers like `CrimsonLoader`.  
+- Supply-chain compromises.
+
+**Signs of Infection:**
+
+- Files renamed/unavailable with weird extensions.  
+- Ransom notes demanding crypto payment.  
+- Unusual traffic to external IPs/C2.  
+- Disabled security tools or backups.
+
+**Prevention:** Maintain offline backups, patch quickly, train users, use EDR, and apply robust segmentation.
+
+---
+
+## 📚 Ethical Use Disclaimer
+
+This simulation environment is designed solely for **educational use, cyber defense training, and legal red teaming engagements**.
+
+No real malware is executed or transmitted in this README. Always operate under authorized conditions and comply with laws and ethical guidelines.
+
+---
+
+## Repo Structure (Suggested)
+/README.md
+/ctf-writeups/
+/osint/
+/malware-analysis/ # notes only — no live samples in public
+---
+
+## Responsible Disclosure & Rules
+
+- All testing must be authorized with written permission.  
+- Do not publish exploited data or active malware samples in public repos.  
+- If you find a vulnerability on third-party systems: follow responsible disclosure (vendor/CERT/coordinated disclosure).  
+- Respect privacy and applicable laws.
+
+---
+
+**Relentless research. Lab-only execution. Full respect for law & ethics.**
+
+/tools/
+/playbooks/
+/notes/
+
+
+
+
+
