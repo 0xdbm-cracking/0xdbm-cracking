@@ -1,5 +1,5 @@
 # 0xdbm-cracking
-![Hacker Banner](https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif)
+![Hacker Banner](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWR4bmZ2YW9zZXR0N283cTVvdWh1aTd0NnY4dG82NWdicnZtZHZzaSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/SUF5PbfnRvKz0AN9Ev/giphy.webp)
 
 > **Red Team / Offensive Cyber Simulation Lab**  
 > High-intensity training ground for red team operators, malware analysts, penetration testers, and threat researchers. Everything here is framed as simulated and lab-only.
